@@ -7,7 +7,7 @@ I am a student in Data Analytics 1202 and trying to use and learn Github.
 
 ### Prerequisites
 
-I have installed the below,
+I have installed the below softwares for doing this lab,
 
 MYSQL server 11 and anaconda 3
 
