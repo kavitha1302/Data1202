@@ -1,10 +1,9 @@
-# Project Title
+# First lab practise in github.
 
-One Paragraph of project description goes here
+I am a student in Data Analytics 1202 and trying to use and learn Github.
+
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -16,7 +15,7 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+I have installed MYSQL server 11 and anaconda 3. 
 
 Say what the step will be
 
@@ -32,7 +31,7 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Lab Description
 
 Explain how to run the automated tests for this system
 
