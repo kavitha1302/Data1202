@@ -1,6 +1,6 @@
-# First lab practise in github.
+# First lab practice in github.
 
-I am a student in Data Analytics 1202 and trying to use and learn Github.
+I am a student in Data Analytics 1202 and I am trying to use and learn Github.
 
 
 ## Getting Started
@@ -16,7 +16,7 @@ MYSQL server 11 and anaconda 3
 Installation Steps:
 MYSQL portable version:
 
-1. Extract the my sql Folder
+1. Extract the my sql Folder from the Zip file
 
 2. Run the Windows Batch File "MYSQL"
 
@@ -28,15 +28,15 @@ MYSQL portable version:
 
 Anaconda Installation:
 
-1. Go to the Anaconda website for downloads - https://www.anaconda.com/products/individual (the
-Anaconda installers will be near the bottom of the page)
-2. Download the appropriate latest version of Anaconda (64-bit graphical installer for Python 3.8 version)
-3. After your install is complete, verify it by opening Anaconda Navigator:
+1. Go to this Anaconda website for downloads - https://www.anaconda.com/products/individual 
+2. Download the latest version of Anaconda (64-bit graphical installer for Python 3.8 version)
+3. After the installation is completed,
 a) On a Windows PC, from the start menu, select Anaconda3(64-bit), then select Anaconda
-Navigator. If Navigator opens, you have successfully installed Anaconda.
+Navigator.
+4. In homepage install Jupiter notebook
 
-4. Now close the Anaconda Navigator application
 Python Libraries Install
+
 5. Launch Command Prompt
 a) Windows PC open the Anaconda Prompt (start menu under Anaconda3(64-bit))
 
@@ -51,22 +51,52 @@ a) Windows PC open the Anaconda Prompt (start menu under Anaconda3(64-bit))
 
 Steps for the Python code in the attached assignment#3 lab file,
 
-Step 1:
+##Step 1:
+Imported pandas as pd 
+
+##Step 2:
+Instead of uploading the csv file we set the file path to a variable here.
+
+##Step 3:
+Here we tried to read the Data into a DataFrame.
+
+##Step 4:
+In this step imported pandas, sqlalchemy and pymysql libraries.
+
+##Step 5:
+Here we created a engine with mysql and pymysql
+
+##Step 6:
+Created a connection string.
+
+##Step 7:
+Tried to read a simple query in python.
+
+##Step 8:
+Printed the dataframe output by using df.head()
+
+##Step 9:
+##python example for the average of global sales higher before or after 2005.
+
+After running the python code, we got the average global sales as 0.649 for the years which are less than 2005, 0.489 for the years after 2005 and 0.488 average global sales for the years in 2005. So from the above results, we can see that the global sales average value is higher for the years which are less than 2005.
+
+##Step 10:## Create a new column that labels records before 2005 as 'pre-2005' and after 2005 as 'post-2005'.
+
+After running the python code, we got a new column as ‘Label’ which shows the records for different years.
+Here, we used the CASE function to label the data as ‘pre-2005’ when it falls under the year 2005 and ‘post-2005’ when it falls after the year 2005 in the label column. 
 
 ##Deployment
 
 ## Authors
 
-* **Omar Altred** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Kavitha**
-* **Ade Oridate**
+* **Kavitha SC**
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is free to use.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Used the class assignment for this lab and the class materials for mysql server installation steps given by professor Omar Al-Trad in Data-1202. 
+* Referred to Ade oridate class materials to represent the anaconda installation steps in Data-1200
+
