@@ -14,7 +14,7 @@ MYSQL server 11 and anaconda 3
 ### Installing
 
 Installation Steps:
-MYSQL portable version:
+### MYSQL portable version:
 
 1. Extract the my sql Folder from the Zip file
 
@@ -26,7 +26,7 @@ MYSQL portable version:
 
 5. Create a sql connection by giving user and port values.
 
-Anaconda Installation:
+### Anaconda Installation:
 
 1. Go to this Anaconda website for downloads - https://www.anaconda.com/products/individual 
 2. Download the latest version of Anaconda (64-bit graphical installer for Python 3.8 version)
@@ -35,7 +35,7 @@ a) On a Windows PC, from the start menu, select Anaconda3(64-bit), then select A
 Navigator.
 4. In homepage install Jupiter notebook
 
-Python Libraries Install
+### Python Libraries Install
 
 5. Launch Command Prompt
 a) Windows PC open the Anaconda Prompt (start menu under Anaconda3(64-bit))
@@ -85,7 +85,7 @@ After running the python code, we got the average global sales as 0.649 for the 
 After running the python code, we got a new column as ‘Label’ which shows the records for different years.
 Here, we used the CASE function to label the data as ‘pre-2005’ when it falls under the year 2005 and ‘post-2005’ when it falls after the year 2005 in the label column. 
 
-##Deployment
+## Deployment
 
 ## Authors
 
